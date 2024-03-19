@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rifqi\\DatingApp\\API\\api.csproj": {}
+    "C:\\Users\\rifqi\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rifqi\\DatingApp\\API\\api.csproj": {
+    "C:\\Users\\rifqi\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rifqi\\DatingApp\\API\\api.csproj",
-        "projectName": "api",
-        "projectPath": "C:\\Users\\rifqi\\DatingApp\\API\\api.csproj",
+        "projectUniqueName": "C:\\Users\\rifqi\\DatingApp\\API\\API.csproj",
+        "projectName": "API",
+        "projectPath": "C:\\Users\\rifqi\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\rifqi\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\rifqi\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
@@ -40,9 +40,15 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Swashbuckle.AspNetCore": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.3, )"
             }
           },
           "imports": [
